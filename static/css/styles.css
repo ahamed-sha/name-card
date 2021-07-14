@@ -1,0 +1,64 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  background-image: url("../images/beach.jpg");
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: #FEF7DC;
+  border: 1px solid #39A2DB;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 22%;
+  height: 60%;
+  padding: 80px 20px 20px 20px;
+  text-align: center;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  float: left;
+  padding-left: 40px;
+  align-items: center;
+}
+
+#profile {
+  height: 28%;
+  width: 30%;
+  align-items: center;
+}
+
+.img {
+  padding-top: 30px;
+}
+
+#name {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #3C5186;
+}
+
+#title {
+  font-family: 'Open Sans', sans-serif;
+  color: #2C2E43;
+}
